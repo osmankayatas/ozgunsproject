@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRESTIGE INFRATECHNIEK - Infra- en kabelwerk Nederland</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;600;700&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo-container">
+                    <div class="logo-text">
+                        <div class="logo-main">PRESTIGE</div>
+                        <div class="logo-sub">INFRATECHNIEK</div>
+                    </div>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Start</a></li>
+                    <li><a href="#about" class="nav-link">Over ons</a></li>
+                    <li><a href="#videos" class="nav-link">Video's</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Image Carousel -->
+    <section id="home" class="hero">
+        <div class="hero-slider">
+            <div class="hero-slide active" style="background-image: url('src/images/3.jpeg')"></div>
+            <div class="hero-slide" style="background-image: url('src/images/4.jpeg')"></div>
+            <div class="hero-slide" style="background-image: url('src/images/5.jpeg')"></div>
+            <div class="hero-slide" style="background-image: url('src/images/8.jpeg')"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Moderne infra-oplossingen</h1>
+            <p>Professionele, betrouwbare en innovatieve ondergrondse netwerken.</p>
+            <button class="cta-button">Bekijk onze video's</button>
+        </div>
+        <div class="hero-dots">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        <button class="slider-btn prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="slider-btn next" onclick="changeSlide(1)">&#10095;</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Wie wij zijn – Uw gecertificeerde infra-partner</h2>
+                    <p>Prestige Infratechniek BV is een betrouwbare infra-onderneming met meer dan tien jaar ervaring in gas, water en elektriciteit.</p>
+                    <p>Wij verzorgen turn-key projecten in heel Nederland, van aansluiting tot netvervanging, met focus op veiligheid en kwaliteit.</p>
+                    <h3>Onze certificeringen</h3>
+                    <ul class="cert-list">
+                        <li>VCA – Veilig werken in risicovolle omgevingen</li>
+                        <li>VOL-VCA – Persoonlijke certificering van operationeel leidinggevenden</li>
+                        <li>KIAD/KIWA – Vakbekwaamheid voor aanleg en onderhoud van drinkwaterleidingen</li>
+                        <li>BEI – Gecertificeerd voor veilige uitvoering van elektrische installaties</li>
+                        <li>VIAG – Veiligheidsinstructies en examen gericht op gas</li>
+                    </ul>
+                    <p class="about-note">Dankzij deze certificeringen en jarenlange ervaring voeren wij projecten uit met maximale veiligheid, professionele uitvoering en volledige naleving van wet- en regelgeving.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Jaar ervaring</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Turn-key uitvoering</p>
+                    </div>
+                    <div class="stat">
+                        <h3>Volledig</h3>
+                        <p>Materiaal en expertise</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="videos">
+        <div class="container">
+            <h2>Projectvideo's</h2>
+            <p class="section-intro">Bekijk onze uitgevoerde projecten in beeld.</p>
+            <div class="videos-grid">
+                <div class="video-item">
+                    <video controls>
+                        <source src="src/images/1.mp4" type="video/mp4">
+                        Uw browser ondersteunt geen video.
+                    </video>
+                </div>
+                <div class="video-item">
+                    <video controls>
+                        <source src="src/images/2.mp4" type="video/mp4">
+                        Uw browser ondersteunt geen video.
+                    </video>
+                </div>
+                <div class="video-item">
+                    <video controls>
+                        <source src="src/images/6.mp4" type="video/mp4">
+                        Uw browser ondersteunt geen video.
+                    </video>
+                </div>
+                <div class="video-item">
+                    <video controls>
+                        <source src="src/images/7.mp4" type="video/mp4">
+                        Uw browser ondersteunt geen video.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2>Onze expertises</h2>
+            <p class="section-intro">Prestige Infratechniek staat voor kwaliteit en vakmanschap binnen de ondergrondse infrastructuur.</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🔥</div>
+                    <h3>Gasleidingen</h3>
+                    <p>Aanleggen en vervangen van gasleidingen volgens de strengste veiligheidsnormen.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💧</div>
+                    <h3>Waterinfrastructuur</h3>
+                    <p>Turn-key oplossingen voor drinkwaterleidingen en volledige aanlegprojecten.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Elektriciteitskabels</h3>
+                    <p>Veilig werken aan laag- en middenspanningskabels met gecertificeerde vakmensen.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛠️</div>
+                    <h3>Projectuitvoering</h3>
+                    <p>Volledige uitvoering in eigen beheer met materialen en kennis op voorraad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p class="section-intro">Heeft u vragen? Neem contact met ons op.</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Naam en achternaam" required>
+                <input type="email" placeholder="E-mailadres" required>
+                <input type="tel" placeholder="Telefoonnummer" required>
+                <textarea placeholder="Uw bericht" rows="5" required></textarea>
+                <button type="submit" class="submit-btn">Verstuur bericht</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>PRESTIGE INFRATECHNIEK</h4>
+                    <p>Moderne infra-oplossingen met betrouwbare constructies in Nederland.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Snelkoppelingen</h4>
+                    <ul>
+                        <li><a href="#home">Start</a></li>
+                        <li><a href="#about">Over ons</a></li>
+                        <li><a href="#videos">Video's</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>📍 Nederland</p>
+                    <p>📞 +31 6 1234 5678</p>
+                    <p>📧 info@prestigeinfra.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Social media</h4>
+                    <div class="social-links">
+                        <a href="#" title="Facebook">f</a>
+                        <a href="#" title="X">𝕏</a>
+                        <a href="#" title="Instagram">📷</a>
+                        <a href="#" title="LinkedIn">in</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 PRESTIGE INFRATECHNIEK. Alle rechten voorbehouden. | <a href="#">Privacybeleid</a> | <a href="#">Gebruiksvoorwaarden</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
