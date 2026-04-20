@@ -217,7 +217,7 @@ body {
 /* About Section */
 .about {
     padding: 60px 0;
-    background-color: rgba(240, 245, 250, 0.6);
+    background: linear-gradient(135deg, #14466d 0%, #1a537f 100%);
 }
 
 .about-content {
@@ -233,7 +233,7 @@ body {
 .about-text h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    color: #14466d;
+    color: #ffffff;
 }
 
 .about-text p {
@@ -244,22 +244,22 @@ body {
 /* Services Section */
 .services {
     padding: 42px 0 60px;
-    background: rgba(240, 245, 250, 0.5);
+    background: linear-gradient(135deg, #14466d 0%, #1a537f 100%);
 }
 
 .services h2 {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 1rem;
-    color: #14466d;
+    color: #ffffff;
 }
 
 .section-intro {
     text-align: center;
     font-size: 1.1rem;
     margin-bottom: 2.2rem;
-    color: #5a6f7f;
-}
+    color: rgba(255, 255, 255, 0.9);
+}}
 
 .services-grid {
     display: grid;
@@ -363,14 +363,14 @@ body {
 
 .contact {
     padding: 60px 0;
-    background: rgba(240, 245, 250, 0.5);
+    background: linear-gradient(135deg, #14466d 0%, #1a537f 100%);
 }
 
 .vacatures h2 {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 1rem;
-    color: #14466d;
+    color: #ffffff;
 }
 
 .back-home-btn {
