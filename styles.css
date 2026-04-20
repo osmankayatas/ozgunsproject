@@ -9,25 +9,25 @@
     --brand-navy-dark: #0f2f4b;
     --brand-yellow: #d9e3ed;
     --brand-ink: #eef3f8;
-    --brand-muted: #b4c2d0;
-    --surface-soft: rgba(8, 28, 46, 0.48);
-    --text-primary: #f1f4f7;
-    --text-secondary: #b5c3d1;
-    --text-soft: #d5dde6;
-    --panel-bg: rgba(8, 28, 46, 0.72);
-    --panel-bg-strong: rgba(5, 20, 34, 0.84);
-    --panel-border: rgba(171, 194, 216, 0.16);
+    --brand-muted: #5a6f7f;
+    --surface-soft: rgba(219, 230, 245, 0.8);
+    --text-primary: #ffffff;
+    --text-secondary: #2c3e50;
+    --text-soft: #4a5f73;
+    --panel-bg: rgba(255, 255, 255, 0.85);
+    --panel-bg-strong: rgba(240, 245, 250, 0.95);
+    --panel-border: rgba(20, 70, 109, 0.12);
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: var(--brand-ink);
-    background-color: #d6e5f4;
+    color: #2c3e50;
+    background-color: #f0f5fa;
     background-image:
-        linear-gradient(140deg, rgba(16, 49, 78, 0.2) 0%, rgba(16, 49, 78, 0.05) 46%, rgba(118, 156, 192, 0.12) 100%),
-        repeating-linear-gradient(120deg, rgba(22, 64, 98, 0.1) 0 1px, transparent 1px 26px),
-        repeating-linear-gradient(60deg, rgba(255, 255, 255, 0.16) 0 1px, transparent 1px 30px);
+        linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(219, 230, 245, 0.85) 48%, rgba(200, 220, 240, 0.8) 100%),
+        repeating-linear-gradient(120deg, rgba(20, 70, 109, 0.03) 0 1px, transparent 1px 30px),
+        repeating-linear-gradient(60deg, rgba(20, 70, 109, 0.02) 0 1px, transparent 1px 35px);
     background-attachment: fixed;
 }
 
@@ -217,7 +217,7 @@ body {
 /* About Section */
 .about {
     padding: 60px 0;
-    background-color: var(--surface-soft);
+    background-color: linear-gradient(135deg, #14466d 0%, #1a537f 100%);
 }
 
 .about-content {
@@ -233,7 +233,7 @@ body {
 .about-text h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    color: var(--brand-navy-dark);
+    color: #ffffff;
 }
 
 .about-text p {
@@ -244,21 +244,21 @@ body {
 /* Services Section */
 .services {
     padding: 42px 0 60px;
-    background: rgba(217, 232, 247, 0.58);
+    background: linear-gradient(135deg, #14466d 0%, #1a537f 100%);
 }
 
 .services h2 {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 1rem;
-    color: var(--brand-navy-dark);
+    color: #ffffff;
 }
 
 .section-intro {
     text-align: center;
     font-size: 1.1rem;
     margin-bottom: 2.2rem;
-    color: var(--brand-muted);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .services-grid {
@@ -362,14 +362,14 @@ body {
 
 .contact {
     padding: 60px 0;
-    background: rgba(214, 230, 246, 0.72);
+    background: linear-gradient(135deg, #14466d 0%, #1a537f 100%);
 }
 
 .vacatures h2 {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 1rem;
-    color: var(--brand-navy-dark);
+    color: #ffffff;
 }
 
 .back-home-btn {
@@ -636,7 +636,7 @@ body {
 
 /* Footer */
 .footer {
-    background: linear-gradient(90deg, #0f2f4b 0%, #14466d 100%);
+    background: linear-gradient(90deg, #14466d 0%, #1a537f 100%);
     color: white;
     padding: 2rem 0;
     text-align: center;
@@ -780,7 +780,7 @@ body {
 .contact-info-card h3,
 .contact-map-card h3,
 .certificate-copy h2 {
-    color: var(--text-primary);
+    color: #ffffff;
 }
 
 .about-text p,
@@ -792,7 +792,7 @@ body {
 .certificate-copy p,
 .vacatures p,
 .projecten p {
-    color: var(--text-secondary);
+    color: #2c3e50;
 }
 
 .service-card,
@@ -803,25 +803,25 @@ body {
 .contact-map-card {
     background: var(--panel-bg);
     border: 1px solid var(--panel-border);
-    box-shadow: 0 22px 48px rgba(0, 0, 0, 0.26);
-    backdrop-filter: blur(12px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(8px);
 }
 
 .service-card:hover {
-    box-shadow: 0 28px 58px rgba(0, 0, 0, 0.34);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
 }
 
 .service-title-overlay {
-    color: rgba(245, 248, 251, 0.92);
-    text-shadow: 0 3px 18px rgba(0, 0, 0, 0.55);
+    color: #ffffff;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .hero-overlay {
-    background: linear-gradient(120deg, rgba(3, 12, 22, 0.82) 0%, rgba(5, 20, 34, 0.62) 55%, rgba(10, 40, 63, 0.42) 100%);
+    background: linear-gradient(120deg, rgba(20, 70, 109, 0.6) 0%, rgba(30, 100, 150, 0.5) 55%, rgba(50, 130, 180, 0.4) 100%);
 }
 
 .hero-sub {
-    color: rgba(236, 241, 246, 0.84);
+    color: #ffffff;
 }
 
 .cta-button,
@@ -841,41 +841,41 @@ body {
 
 .contact-form input,
 .contact-form textarea {
-    color: var(--text-primary);
-    background: rgba(5, 19, 31, 0.8);
-    border-color: rgba(171, 194, 216, 0.18);
+    color: #2c3e50;
+    background: rgba(255, 255, 255, 0.95);
+    border-color: rgba(20, 70, 109, 0.2);
 }
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-    color: rgba(196, 210, 223, 0.62);
+    color: rgba(92, 111, 127, 0.6);
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border-color: rgba(211, 225, 238, 0.34);
-    box-shadow: 0 0 0 4px rgba(171, 194, 216, 0.1);
+    border-color: rgba(20, 70, 109, 0.4);
+    box-shadow: 0 0 0 4px rgba(20, 70, 109, 0.1);
 }
 
 .contact-details {
-    background: rgba(255, 255, 255, 0.04);
+    background: rgba(219, 230, 245, 0.4);
 }
 
 .contact-details strong,
 .map-link,
 .contact-details a:hover {
-    color: var(--text-soft);
+    color: #14466d;
 }
 
 .contact-map-card,
 .contact-form {
-    background: linear-gradient(180deg, rgba(9, 31, 50, 0.88) 0%, rgba(6, 23, 38, 0.86) 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(240, 245, 250, 0.92) 100%);
 }
 
 .certificate-panel {
-    background: linear-gradient(135deg, rgba(5, 21, 36, 0.94) 0%, rgba(11, 39, 62, 0.9) 100%);
-    border: 1px solid var(--panel-border);
-    box-shadow: 0 24px 56px rgba(0, 0, 0, 0.28);
+    background: linear-gradient(135deg, rgba(240, 245, 250, 0.95) 0%, rgba(219, 230, 245, 0.92) 100%);
+    border: 1px solid rgba(20, 70, 109, 0.12);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
 .certificate-image-wrap {
@@ -883,8 +883,8 @@ body {
 }
 
 .footer {
-    background: rgba(4, 16, 28, 0.72);
-    border-top: 1px solid rgba(171, 194, 216, 0.16);
+    background: rgba(20, 70, 109, 0.85);
+    border-top: 1px solid rgba(20, 70, 109, 0.2);
 }
 
 /* Responsive Design */
