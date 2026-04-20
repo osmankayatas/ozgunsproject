@@ -239,6 +239,7 @@ body {
 .about-text p {
     margin-bottom: 1rem;
     line-height: 1.8;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 /* Services Section */
@@ -327,7 +328,7 @@ body {
 }
 
 .service-content p {
-    color: rgba(217, 227, 237, 0.9);
+    color: rgba(217, 227, 237, 0.95);
     line-height: 1.6;
 }
 
@@ -468,7 +469,7 @@ body {
 }
 
 .contact-copy {
-    color: var(--brand-muted);
+    color: rgba(255, 255, 255, 0.9);
     line-height: 1.8;
 }
 
@@ -793,7 +794,7 @@ body {
 .certificate-copy p,
 .vacatures p,
 .projecten p {
-    color: #2c3e50;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .service-card,
