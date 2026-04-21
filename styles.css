@@ -245,7 +245,7 @@ body {
 
 /* Services Section */
 .services {
-    padding: 16px 0 60px;
+    padding: 8px 0 60px;
     background: transparent;
 }
 
@@ -365,7 +365,7 @@ body {
 }
 
 .contact {
-    padding: 60px 0;
+    padding: 28px 0;
     background: rgba(214, 230, 246, 0.72);
 }
 
@@ -583,8 +583,8 @@ body {
 }
 
 .certificate-showcase {
-    padding: 8px 0 28px;
-    background: linear-gradient(180deg, rgba(220, 234, 248, 0.78) 0%, rgba(205, 223, 241, 0.78) 100%);
+    padding: 4px 0 10px;
+    background: transparent;
 }
 
 .certificate-panel {
