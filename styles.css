@@ -20,6 +20,7 @@ body {
   font-family: "Montserrat", sans-serif;
   background: #f4f7fb;
   color: #0f2135;
+  overflow-x: hidden;
 }
 
 .site-header {
@@ -303,6 +304,52 @@ main {
   color: var(--accent-deep);
 }
 
+.certificeringen-wrap {
+  max-width: 1220px;
+  margin: 34px auto 0;
+  padding: 20px;
+  border: 1px solid #c8e0d9;
+  border-radius: 14px;
+  background: #e8f5f0;
+}
+
+.certificeringen-wrap h3 {
+  margin: 0;
+  font-size: clamp(1.4rem, 2.4vw, 2rem);
+  color: #0b1f36;
+  letter-spacing: 0.01em;
+}
+
+.certificeringen-grid {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.certificering-card {
+  border: 2px solid #b8ddd3;
+  border-left: 4px solid var(--accent);
+  background: linear-gradient(180deg, #ffffff 0%, #f9fcff 100%);
+  border-radius: 12px;
+  padding: 18px 16px;
+  box-shadow: 0 6px 16px rgba(8, 30, 58, 0.08);
+}
+
+.certificering-card h4 {
+  margin: 0;
+  color: #0d243d;
+  font-size: clamp(1.1rem, 1.65vw, 1.45rem);
+  line-height: 1.2;
+}
+
+.certificering-card p {
+  margin: 12px 0 0;
+  color: #344a61;
+  font-size: 0.99rem;
+  line-height: 1.66;
+}
+
 .wie-zijn-section {
   width: 100vw;
   margin-left: 50%;
@@ -448,6 +495,10 @@ main {
   .expertises-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+
+  .certificeringen-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 980px) {
@@ -456,6 +507,11 @@ main {
   }
 
   .expertises-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .certificeringen-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 12px;
   }
@@ -584,6 +640,30 @@ main {
     gap: 14px;
   }
 
+  .certificeringen-wrap {
+    margin-top: 28px;
+    padding: 14px;
+  }
+
+  .certificeringen-wrap h3 {
+    font-size: clamp(1.3rem, 6vw, 1.75rem);
+  }
+
+  .certificeringen-grid {
+    margin-top: 14px;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .certificering-card {
+    padding: 18px 16px;
+  }
+
+  .certificering-card p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
   .expertise-card {
     padding: 20px 16px;
   }
@@ -696,6 +776,16 @@ main {
   margin: 14px 0 26px;
   font-size: clamp(0.95rem, 2vw, 1.1rem);
   color: var(--text-soft);
+}
+
+.offerte-text a {
+  color: #e6fffb;
+  font-weight: 700;
+}
+
+.offerte-text a:hover,
+.offerte-text a:focus-visible {
+  color: #b9fff8;
 }
 
 .back-home {
